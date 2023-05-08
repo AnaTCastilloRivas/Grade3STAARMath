@@ -1,91 +1,34 @@
 <!DOCTYPE html>
 <html>
 <head>
-	<title>Math Quiz</title>
+	<title>Equivalent Fractions Quiz</title>
 	<meta charset="UTF-8">
 	<meta name="viewport" content="width=device-width, initial-scale=1.0">
-	<style>
-		body {
-			font-family: Arial, sans-serif;
-			margin: 0;
-			padding: 0;
-			background-color: #f2f2f2;
-		}
-		h1 {
-			text-align: center;
-			margin-top: 20px;
-			margin-bottom: 20px;
-		}
-		form {
-			max-width: 800px;
-			margin: 0 auto;
-			background-color: white;
-			padding: 20px;
-			border-radius: 10px;
-			box-shadow: 0 0 10px rgba(0,0,0,0.2);
-		}
-		fieldset {
-			border: none;
-			padding: 0;
-			margin: 0;
-		}
-		legend {
-			font-size: 24px;
-			font-weight: bold;
-			margin-bottom: 10px;
-		}
-		label {
-			display: block;
-			font-size: 18px;
-			font-weight: bold;
-			margin-bottom: 5px;
-		}
-		input[type="radio"] {
-			margin-right: 5px;
-		}
-		input[type="submit"] {
-			background-color: #4CAF50;
-			color: white;
-			font-size: 20px;
-			font-weight: bold;
-			border: none;
-			border-radius: 5px;
-			padding: 10px;
-			cursor: pointer;
-			margin-top: 20px;
-			margin-bottom: 20px;
-		}
-		img {
-			width: 150px;
-			height: 150px;
-			margin-right: 10px;
-			margin-bottom: 10px;
-		}
-		.correct {
-			color: green;
-			font-weight: bold;
-		}
-		.incorrect {
-			color: red;
-			font-weight: bold;
-		}
-	</style>
 </head>
 <body>
-	<h1>Math Quiz</h1>
+	<h1>Equivalent Fractions Quiz</h1>
+	<p>Each model shown is shaded to represent a fraction. Which models are shaded to represent fractions equivalent to 1 over 5 ? Select TWO correct answers.</p>
+	<div>
+		<img src="https://dummyimage.com/150x100/ffcccc/000000.png&text=1/5" alt="1/5" />
+		<img src="https://dummyimage.com/150x100/ccccff/000000.png&text=2/5" alt="2/5" />
+		<img src="https://dummyimage.com/150x100/99ff99/000000.png&text=3/5" alt="3/5" />
+		<img src="https://dummyimage.com/150x100/ffcc99/000000.png&text=4/5" alt="4/5" />
+	</div>
 	<form>
 		<fieldset>
-			<legend>Question 1:</legend>
-			<p>Each model shown is shaded to represent a fraction. Which models are shaded to represent fractions equivalent to 1 over 5? Select TWO correct answers.</p>
-			<div>
-				<img src="https://dummyimage.com/150x150/000/fff&text=1/5" alt="1/5">
-				<input type="checkbox" id="a" name="q1" value="a">
-				<label for="a">A</label>
-				<img src="https://dummyimage.com/150x150/000/fff&text=2/5" alt="2/5">
-				<input type="checkbox" id="b" name="q1" value="b">
-				<label for="b">B</label>
-				<img src="https://dummyimage.com/150x150/000/fff&text=3/5" alt="3/5">
-				<input type="checkbox" id="c" name="q1" value="c">
-				<label for="c">C</label>
-				<img src="https://dummyimage.com/150x150/000/fff&text=4/5" alt="4/5">
-				<input type="checkbox" id="d
+			<legend>Select TWO correct answers:</legend>
+			<input type="checkbox" id="option1" name="option1" value="option1">
+			<label for="option1"><img src="https://dummyimage.com/150x100/ffcccc/000000.png&text=Option+1" alt="Option 1" /></label><br>
+			<input type="checkbox" id="option2" name="option2" value="option2">
+			<label for="option2"><img src="https://dummyimage.com/150x100/ccccff/000000.png&text=Option+2" alt="Option 2" /></label><br>
+			<input type="checkbox" id="option3" name="option3" value="option3">
+			<label for="option3"><img src="https://dummyimage.com/150x100/99ff99/000000.png&text=Option+3" alt="Option 3" /></label><br>
+			<input type="checkbox" id="option4" name="option4" value="option4">
+			<label for="option4"><img src="https://dummyimage.com/150x100/ffcc99/000000.png&text=Option+4" alt="Option 4" /></label><br>
+			<input type="checkbox" id="option5" name="option5" value="option5">
+			<label for="option5"><img src="https://dummyimage.com/150x100/ffffcc/000000.png&text=Option+5" alt="Option 5" /></label><br>
+		</fieldset>
+		<input type="submit" value="Submit">
+	</form>
+</body>
+</html>
